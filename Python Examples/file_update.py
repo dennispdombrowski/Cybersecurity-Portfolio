@@ -3,7 +3,7 @@ import_file = "allow_list.txt"
 
 with open(import_file, "r") as file:
     # Use read to store contents in the ip_addresses variable
-    ip_addresses = file.read
+    ip_addresses = file.read()
     
     # Convert from sting to list.
     ip_addresses = ip_addresses.split()
